@@ -1,0 +1,38 @@
+* {
+  -webkit-user-select: none;  /* Disable selection/copy of elements when tapping for a long time */
+  -webkit-touch-callout: none; /* Disable touch callouts */
+}
+
+input, textarea {
+  -webkit-user-select: text;  /* Allow selection for input elements */
+}
+
+.content-padded {
+  padding: 10px;
+}
+
+.crop {
+   /* width: 300px; */
+    height: 100px;
+    overflow: hidden;
+}
+
+.crop img {
+    width: 100px;
+    height: 100px;
+    float: left;
+    padding-right: 10px;
+}
+
+.cropShow {
+   /* width: 300px; */
+    height: 165px;
+    overflow: hidden;
+}
+
+.cropShow img {
+    width: 150px;
+    height: 150px;
+    float: left;
+    padding-right: 10px;
+}

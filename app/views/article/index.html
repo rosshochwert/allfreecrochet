@@ -1,0 +1,20 @@
+<script>
+  ArticleController.index();
+</script>
+
+<div id="loading" class="content-padded" style="border-bottom: none;">
+  <center><a><img src="/icons/ajax-loader.gif" /></a></center>
+ </div>
+ 
+ <center>
+
+<div id ="error" style="border-bottom: none;">
+  <p visibility="hidden">There was an error fetching the articles. Please check your internet connection and try again.</p>
+  <button id="refresh" class="topcoat-button--cta">Refresh the Articles</button>
+  </center>
+</div>
+
+<div class="topcoat-list__container">
+  <ul class="topcoat-list">
+  </ul>
+</div>

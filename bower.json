@@ -1,0 +1,1 @@
+{"name":"mySteroidsProject","version":"0.0.1","authors":[],"ignore":["**/.*","node_modules","www/components","www/spec","test","tests"],"dependencies":{"steroids-js":"3.x.x","jquery":"2.0.x"}}
